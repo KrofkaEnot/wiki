@@ -1,0 +1,5 @@
+RESET - СБРОС
+systemctl stop fail2ban.service
+truncate -s 0 /var/log/fail2ban.log
+rm /var/lib/fail2ban/fail2ban.sqlite3
+systemctl restart fail2ban.service
