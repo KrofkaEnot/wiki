@@ -1,3 +1,4 @@
+CentOS7
 RESET - СБРОС
 systemctl stop fail2ban.service
 truncate -s 0 /var/log/fail2ban.log
